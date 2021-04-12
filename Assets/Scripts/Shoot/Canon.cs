@@ -6,7 +6,6 @@ public class Canon : MonoBehaviour
 {
     public bool fireBullet;
     public GameObject bullet;
-    float timmer;
 
     public static Canon instance;
 

@@ -5,10 +5,16 @@ using UnityEngine;
 public class FireWeapon : MonoBehaviour
 {
 
+    public GameObject canon1, canon2, canon3;
+    bool ready = false;
+
     void Update()
     {
-       if (Input.GetKeyDown("f")){
-           Canon.instance.fireBullet = true;
-       }
+        if(canon1.activeInHierarchy || canon2.activeInHierarchy || canon3.activeInHierarchy){//avoid the setactive error
+            ready = true;
+        }
+        if (Input.GetKeyDown("z") && ready){
+            Canon.instance.fireBullet = true;
+        }
     }
 }
