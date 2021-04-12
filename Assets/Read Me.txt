@@ -1,0 +1,5 @@
+Para mover el personaje en la segunda escena, usar las flechas arriba y abajo.
+Para girarlo usar la flechas izquierda y derecha.
+Puede cambiar el tamaño de las balas con scriptable objects, pero hay que tener en cuenta que la bala que es parabólica se destruye al tocar el piso. Si la hace tan grande que toque el piso se destruye inmediatamente.
+Para probar el arma de gravedad, hay que dispararle a las caas grandes y a la esfera.
+Se dispara con la tecla z.
